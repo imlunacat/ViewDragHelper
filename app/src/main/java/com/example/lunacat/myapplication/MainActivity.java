@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, ScrollActivity.class);
+                Intent i = new Intent(MainActivity.this, SimpleDragActivity.class);
                 i.setAction(Intent.ACTION_MAIN);
                 MainActivity.this.startActivity(i);
             }
