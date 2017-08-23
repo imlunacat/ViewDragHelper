@@ -9,23 +9,25 @@ import com.example.lunacat.myapplication.simple.DragFrameLayout;
 import com.example.lunacat.myapplication.R;
 
 public class DragActivity extends AppCompatActivity {
-    DragFrameLayout mDragFrameLayout;
+    ActivityDraggerFramelayout mDragFrameLayout;
     @Override
     public void onCreate(Bundle savedInstance) {
         super.onCreate(savedInstance);
 
         setContentView(R.layout.activity_drag);
 
-        mDragFrameLayout = (DragFrameLayout) findViewById(R.id.root_framelayout);
+        mDragFrameLayout = (ActivityDraggerFramelayout) findViewById(R.id.root_framelayout);
     }
 
     @Override
     protected void onPostCreate(@Nullable Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
+        mDragFrameLayout.onAttach(this);
     }
 
     @Override
     public void onPostCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
         super.onPostCreate(savedInstanceState, persistentState);
+        mDragFrameLayout.onAttach(this);
     }
 }
