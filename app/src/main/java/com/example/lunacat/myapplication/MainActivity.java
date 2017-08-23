@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.lunacat.myapplication.activity_drag.DragActivity;
+import com.example.lunacat.myapplication.simple.SimpleDragActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

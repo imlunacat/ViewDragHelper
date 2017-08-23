@@ -1,7 +1,9 @@
-package com.example.lunacat.myapplication;
+package com.example.lunacat.myapplication.simple;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import com.example.lunacat.myapplication.R;
 
 public class SimpleDragActivity extends AppCompatActivity {
 

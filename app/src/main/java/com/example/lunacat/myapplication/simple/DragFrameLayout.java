@@ -1,4 +1,4 @@
-package com.example.lunacat.myapplication;
+package com.example.lunacat.myapplication.simple;
 
 import android.content.Context;
 import android.support.annotation.AttrRes;

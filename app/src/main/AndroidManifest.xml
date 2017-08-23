@@ -17,13 +17,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SimpleDragActivity">
+        <activity android:name=".simple.SimpleDragActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".DragActivity">
+        <activity android:name=".activity_drag.DragActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
